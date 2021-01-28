@@ -15,7 +15,8 @@ export const PaypalClientId = PAYPAL_CLIENT_ID;
 export const TranscriptionCost = 0.15; // $0.15 per minute
 
 export const GetTotalCost = duration => Math.ceil((duration / 60) * TranscriptionCost * 100) / 100;
-
+export const cognitoUserPool = null;
+/*
 export const cognitoUserPool = new CognitoUserPool({
 	UserPoolId: CognitoUserPoolId, // Your user pool id here
 	ClientId: CognitoClientId,
@@ -24,3 +25,4 @@ export const cognitoUserPool = new CognitoUserPool({
 	//   https://github.com/aws-amplify/amplify-js/blob/master/packages/amazon-cognito-identity-js/src/StorageHelper.js#L70
 	// Storage: localStorage,
 });
+*/

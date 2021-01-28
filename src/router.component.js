@@ -24,11 +24,11 @@ const useStyles = makeStyles({
 });
 
 const history = createBrowserHistory();
-
+/*
 history.listen(location => {
 	window.gtag('config', GAProduct, { page_path: location.pathname + location.search });
 });
-
+*/
 export default function AppRouter() {
 	const classes = useStyles();
 

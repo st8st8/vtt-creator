@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import { useApolloClient, gql } from '@apollo/client';
-
+/*
 const PayPalButton = paypal.Buttons.driver('react', { React, ReactDOM });
 
 const CREATE_PAYPAL_ORDER_MUTATION = gql`
@@ -84,3 +84,4 @@ export default function PaypalButtons({ purchaseAmt, disabled, onApprove, onAppr
 		/>
 	);
 }
+*/
